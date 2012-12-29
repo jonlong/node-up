@@ -32,7 +32,7 @@ It's a good idea to make the auth request first and store the resulting token in
 The only required parameter for each endpoint is the token.
 
 ```js
-client.feedSummary({_token: token}, function(err, res) {
+upClient.feedSummary({_token: token}, function(err, res) {
 	console.log(res);
 });
 ```
