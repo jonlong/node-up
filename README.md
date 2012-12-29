@@ -2,7 +2,7 @@
 
 A node.js API wrapper for the undocumented Jawbone UP API.
 
-Based on @ericblue's most-excellent work, found here: http://eric-blue.com/projects/up-api/
+Based on Eric Blue's most-excellent work, found here: http://eric-blue.com/projects/up-api/
 
 ##Usage
 ###Setup
@@ -44,5 +44,5 @@ npm install up
 
 ##Run Tests
 ``` bash
-  $ make test
+  $ npm test
 ```
