@@ -4,6 +4,8 @@ A node.js API wrapper for the undocumented Jawbone UP API.
 
 Based on Eric Blue's most-excellent work, found here: http://eric-blue.com/projects/up-api/
 
+![TravisCI Build Status](https://travis-ci.org/jonlong/node-up.png)
+
 ##Usage
 ###Setup
 ```js

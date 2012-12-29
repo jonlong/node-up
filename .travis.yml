@@ -4,7 +4,6 @@ language: node_js
 node_js:
   - 0.6
   - 0.8
-
 env:
   global:
     - secure: "m/KNJfq9tstauNAf/VJ53DbTaAZxjUggH3Mm9hxNbMGqOYce1cUbMsFlZ2id\nWSRXwdGWHd9uVm9OBUHVCLuIdhd8nTHuQIOgVkcX88CxBvHq4Vbk6s6/yakl\nieJSv11Yj1J2tGlTu96BktfXk7j63K2SYnnbG0hP+LDzi8Kdpd4="
