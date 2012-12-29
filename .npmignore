@@ -5,3 +5,4 @@ notes.txt
 .git
 .gitignore
 .npmignore
+test/config.json

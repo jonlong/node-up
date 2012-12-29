@@ -1,6 +1,6 @@
 {
   "name": "node-up",
-  "version": "0.1.0",
+  "version": "0.0.1",
   "description": "A node.js client module for the unofficial Jawbone UP API",
   "homepage": "http://github.com/jonlong/node-up",
   "author": "Jon Long <jon@linesandwaves.com>",
@@ -9,16 +9,22 @@
     "type": "git",
     "url": "git://github.com/jonlong/node-up.git"
   },
+  "keywords": ["jawbone", "up", "api"],
   "scripts": {
-    "test": "node specs.js"
+    "test": "make test"
   },
   "dependencies": {
-    "request": "2.12.x"
+    "request": "2.12.x",
+    "errs": "0.2.x"
+  },
+  "devDependencies": {
+    "mocha": "1.7.x",
+    "should": "1.2.x"
   },
   "engines": {
     "node": "*"
   },
-  "directories": {
-    "lib": "./lib"
+  "main": {
+    "lib": "./lib/Up"
   }
 }
