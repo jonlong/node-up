@@ -7,5 +7,4 @@ Based on @ericblue's most-excellent work, found here: http://eric-blue.com/proje
 To come: 
 - better documentation
 - examples
-- tests
 - npm submission
