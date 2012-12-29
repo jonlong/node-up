@@ -3,3 +3,4 @@ spec
 specs.js
 examples
 test/config.json
+node_modules
