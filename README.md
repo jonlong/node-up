@@ -9,7 +9,7 @@ Based on Eric Blue's most-excellent work, found here: http://eric-blue.com/proje
 ##Usage
 ###Setup
 ```js
-var Up = require('up');
+var Up = require('node-up');
 
 var upClient = new Up({
   username: JAWBONE_USERNAME,
@@ -41,7 +41,7 @@ Some endpoints accept further parameters, which are documented before each metho
 
 ##Installation
 ```
-npm install up
+npm install node-up
 ```
 
 ##Run Tests
