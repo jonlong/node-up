@@ -1,8 +1,2 @@
 .DS_Store
-examples
-example.js
-notes.txt
-.git
-.gitignore
-.npmignore
-test/config.json
+test
