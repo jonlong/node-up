@@ -1,5 +1,5 @@
 {
-  "name": "up",
+  "name": "node-up",
   "version": "1.0.0",
   "description": "A node.js client module for the unofficial Jawbone UP API",
   "homepage": "http://github.com/jonlong/node-up",
