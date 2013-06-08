@@ -29,7 +29,7 @@ upClient.auth(function(err, res){
   console.log(token);
 });
 ```
-It's a good idea to make the auth request first and store the resulting token in your app for subsequent requests.
+It's a good idea to make the auth request first and store the resulting token in your app for subsequent requests.  With that said, I'm not sure if this token expires at some point, so you should be aware of that possibility.
 
 ###Calling the Endpoints
 The only required parameter for each endpoint is the token.
