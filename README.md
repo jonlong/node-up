@@ -1,3 +1,6 @@
+### This library is deprecated. Check out [node-jawbone-up](https://github.com/ryanseys/node-jawbone-up), which supports v.1.1 of the official API.
+
+
 # node-up
 
 A node.js API wrapper for the undocumented Jawbone UP API.
