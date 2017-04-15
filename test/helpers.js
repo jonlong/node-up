@@ -1,15 +1,5 @@
 var Client = require('../lib/Up').Client;
 
-var password = process.env.JAWBONE_PASSWORD || exports.loadConfig().password;
-var username = process.env.JAWBONE_USERNAME || exports.loadConfig().username;
-
-exports.createClient = function() {
-  return new Client({
-    username: username,
-    password: password
-  });
-};
-
 exports.loadConfig = function() {
   try {
     return require('./config.json');
@@ -20,3 +10,14 @@ exports.loadConfig = function() {
     process.exit(1);
   }
 };
+
+var password = process.env.JAWBONE_PASSWORD || exports.loadConfig().password;
+var username = process.env.JAWBONE_USERNAME || exports.loadConfig().username;
+
+exports.createClient = function() {
+  return new Client({
+    username: username,
+    password: password
+  });
+};
+
